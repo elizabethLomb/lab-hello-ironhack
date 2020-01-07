@@ -1,8 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import FeatureList from './FeatureList';
 
 class App extends Component {
   render() {
-    return <h1>Hello!</h1>
+    return (
+      <div>
+        <FeatureList/>
+      </div>
+    )
   }
 }
 
