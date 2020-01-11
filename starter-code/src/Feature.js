@@ -1,10 +1,10 @@
 import React from "react";
 
 const Feature = (props) => (
-  <div>
+  <div className="card text-center">
+    <img className="card-img-top" src={props.img}/>
     <h4>{props.title}</h4>
-    <img src="{props.img}"/>
-    <p>{props.description}</p>
+    <p className="text-muted">{props.description}</p>
   </div>
 )
 

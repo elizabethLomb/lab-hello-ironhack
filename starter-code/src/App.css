@@ -1,0 +1,9 @@
+.card{
+  border: none;
+}
+
+.Opening {
+  min-height: 70vh;
+  background: url(/images/react-logo.svg) #1f2435;
+  color: white;
+}
